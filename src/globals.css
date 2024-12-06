@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply dark:bg-[#052825] bg-white
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    background-color: #2E4FD7;
+
+}
+
+.carousel .control-dots {
+    width: auto;
+    margin-bottom: 0;
+}
+
+.carousel .control-dots .dot {
+    box-shadow: none;
+    background: #2E4FD7;
+    width: 6px;
+    height: 6px;
+    margin: 0 6px;
+}
+
+.dark .carousel .control-dots .dot {
+    background: #fff;
+}
+
+.text-dark {
+    color: #333;
+}
+
+.text-body-color {
+    color: #666666;
+}
+
+.dark .text-body-color {
+
+    color: #CCC;
+}
